@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="100dp"
+        android:text="DEFAULT RADIO BUTTONS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+
+            android:layout_margin="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="male"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="female"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:layout_margin="30dp" />
+
+
+    </RadioGroup>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="100dp"
+        android:text="CUSTOMIZED RADIO BUTTONS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+
+            android:layout_margin="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="male"
+            android:button="@drawable/custom_radio_button"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="female"
+            android:textSize="20sp"
+            android:button="@drawable/custom_radio_button"
+            android:layout_marginLeft="5dp"
+            android:layout_margin="30dp" />
+
+
+    </RadioGroup>
+    
+    
+    
+
+    
+    
+    </LinearLayout>
+        

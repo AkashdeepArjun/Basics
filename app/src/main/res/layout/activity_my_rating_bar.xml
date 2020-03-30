@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <TextView
+        android:textSize="20sp"
+        android:text="Rate us"
+        android:textAlignment="center"
+        android:layout_marginTop="140dp"
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <RatingBar
+        android:layout_marginTop="180dp"
+        android:tooltipText="rate us"
+        android:id="@+id/rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </RatingBar>
+    <Button
+        android:id="@+id/submit_button"
+        android:text="submit"
+        android:background="@color/cyan"
+        android:layout_below="@id/rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+</RelativeLayout>
