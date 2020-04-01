@@ -11,18 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight">
-        <activity android:name=".MyContextMenu">
+        <activity android:name=".MyDataManager">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MyOptionsMenu">
+        <activity android:name=".MyAlarm">
         </activity>
-        <activity android:name=".MyShareIntentActivity"></activity>
+        <activity android:name=".MyContextMenu"></activity>
+        <receiver android:name=".MyReciever" />
+        <activity android:name=".MyOptionsMenu" />
+        <activity android:name=".MyShareIntentActivity" />
         <activity android:name=".MyIntentActivity2" />
-        <activity android:name=".MyIntentActivity1"></activity>
+        <activity android:name=".MyIntentActivity1" />
         <activity android:name=".MyTextWatcher" />
         <activity android:name=".MySearchBar" />
         <activity android:name=".MyFragments" />
