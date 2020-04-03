@@ -66,7 +66,6 @@ public class ExternalStorage extends AppCompatActivity {
             myfile.createNewFile();
             FileOutputStream fos=new FileOutputStream(myfile);
             OutputStreamWriter fw=new OutputStreamWriter(fos);
-
             fw.append(data);
             Toast.makeText(getApplicationContext(),"data saved!",Toast.LENGTH_SHORT).show();
             fw.close();
